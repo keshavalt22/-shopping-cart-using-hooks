@@ -1,5 +1,4 @@
-{
-  "products": [
+let products =  [
     {
       "availableSizes": ["S", "XS"],
       "currencyFormat": "$",
@@ -209,4 +208,5 @@
       "title": "On The Streets Black T-Shirt"
     }
   ]
-}
+
+  export default products;

@@ -1,0 +1,321 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom Style*/
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+h1 {
+	font-size: 44px;
+	font-weight: 700;
+	color: whitesmoke;
+}
+
+header {
+	width: 100%;
+	background-color: rgb(119, 125, 132);
+	padding: 20px 0;
+}
+
+main {
+	display: flex;
+	margin-top: 12px;
+}
+
+.aside {
+	box-sizing: border-box;
+	width: 10%;
+}
+
+h5 {
+	font-size: 22px;
+}
+
+.sizes {
+	display: grid;
+	gap: 10px;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+
+.sizes li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	font-weight: 200;
+	color: black;
+	padding: 6px;
+	background-color: rgb(218, 209, 209);
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	margin-left: 12px;
+}
+
+.products {
+	display: grid;
+	gap: 50px;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.product {
+	max-width: 200px;
+	border: 2px solid rgb(184, 180, 180);
+	padding: 20px;
+	border-radius: 12px;
+}
+
+.product img {
+	width: 100%;
+}
+
+.product h3 {
+	font-size: 16px;
+	color: darkgray;
+	margin: 10px 0;
+
+}
+
+.product h4 {
+	font-size: 16px;
+	margin: 10x 0;
+}
+
+.product button {
+	background-color: black;
+	color: white;
+	padding: 4px 6px;
+	margin: 10px 0;
+}
+
+.aside-left {
+	align-items: center;
+	left: 16px;
+	top: 120px;
+}
+
+.aside-right {
+	align-items: center;
+	right: 12px;
+	top: 120px;
+}
+
+.aside-right label {
+	font-size: 18px;
+	color: gray;
+}
+
+.aside-right form {
+	text-align: left;
+	margin: 16px 0;
+}
+
+.aside-right select {
+	padding: 6px 4px;
+}
+
+.cart {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: black;
+}
+
+.active {
+	background-color: cadetblue;
+	color: white;
+	border: 1px solid black;
+}
+
+.carttogo {
+	background-color: cadetblue;
+	padding: 12px;
+	width: 200px;
+	margin: 6px 0;
+}
+
+.carttogo h2 {
+	font-size: 32px;
+}
+
+.item {
+	border: 2px solid rgb(184, 180, 180);
+	padding: 10px;
+	border-radius: 12px;
+	width: 150px;
+	margin: 4px auto;
+}
+
+.item img {
+	width: 40%;
+	padding: 6px 0;
+}
+
+.item h3 {
+	font-size: 16px;
+	color: black;
+	padding: 6px 0;
+}
+
+.item h4 {
+	font-size: 22px;
+	color: gold;
+	padding: 6px 0;
+}
+
+h5 {
+	font-size: 24px;
+	color: black;
+	margin-top: 12px;
+}
